@@ -2,7 +2,7 @@
 local picker_opts = {
   hidden = true,
   ignored = true,
-  exclude = { "node_modules", ".git", ".DS_Store" },
+  exclude = { "node_modules", ".git", ".DS_Store", ".svelte-kit" },
 }
 
 return {
